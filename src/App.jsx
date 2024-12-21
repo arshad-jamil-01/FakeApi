@@ -16,7 +16,7 @@ const App = () => {
  const addToCart = (idx) => {
   const copyarr = [...cart, getData[idx]];
   setCart(copyarr)
-  console.log("click hop gya")
+
 };
 
 const deleteHandler=(index)=>{
